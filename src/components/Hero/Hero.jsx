@@ -32,7 +32,7 @@ const Hero = () => {
       {/* hero img section  */}
       <div
         data-aos="zoom-in"
-        className=" w-full lg:w-2/4 mt-14 lg:mt-0 ring-[15px] border-2 border-black rounded-md"
+        className=" w-full lg:w-2/4 mt-14 lg:mt-0 ring-8 lg:ring-[15px] border-2 border-black rounded-md"
       >
         <Image src={img} alt="img" className=" rounded-md" />
       </div>

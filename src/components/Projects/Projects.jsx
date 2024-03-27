@@ -8,10 +8,16 @@ import DevCard from "./DevCard";
 const Projects = () => {
   return (
     <div className=" min-h-screen container flex flex-col items-center justify-center mt-16 mb-8">
-      <h1 data-aos="fade-up" className=" text-5xl font-bold text-center w-3/4">
+      <h1
+        data-aos="fade-up"
+        className=" text-4xl lg:text-5xl font-bold text-center w-full lg:w-3/4"
+      >
         See Our Projects
       </h1>
-      <p data-aos="fade-up" className=" w-3/4 text-center mt-5">
+      <p
+        data-aos="fade-up"
+        className="text-sm lg:text-base w-full lg:w-3/4 text-center mt-5"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rerum quos
         dolor ratione nemo voluptas. Nobis dolore similique odit provident.
       </p>

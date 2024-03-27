@@ -28,10 +28,16 @@ const serviceData = [
 const Services = () => {
   return (
     <div className=" min-h-screen container flex flex-col justify-center items-center gap-10 py-10">
-      <h1 data-aos="fade-up" className=" text-5xl font-bold text-center w-3/4">
+      <h1
+        data-aos="fade-up"
+        className=" text-3xl lg:text-5xl font-bold text-center w-full lg:w-3/4"
+      >
         Save time managing you business with our services
       </h1>
-      <p data-aos="fade-up" className=" w-3/4 text-center">
+      <p
+        data-aos="fade-up"
+        className=" text-sm lg:text-base w-full lg:w-3/4 text-center"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rerum quos
         dolor ratione nemo voluptas. Nobis dolore similique odit provident.
       </p>
