@@ -2,7 +2,7 @@ import React from "react";
 import img1 from "../../assets/webDesign.jpg";
 import img2 from "../../assets/webDev.jpg";
 import img3 from "../../assets/ecomm.jpg";
-import WebCard from "./webCard";
+import WebCard from "./WebCard";
 import DevCard from "./DevCard";
 
 const Projects = () => {
