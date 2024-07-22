@@ -5,7 +5,10 @@ const WebCard = ({ img, project, title }) => {
   return (
     <div className=" flex flex-col-reverse lg:flex-row justify-between">
       {/* content section  */}
-      <div data-aos="fade-down" className=" w-full lg:w-2/4 space-y-8 mt-14 lg:mt-0">
+      <div
+        data-aos="fade-down"
+        className=" w-full lg:w-2/4 space-y-8 mt-14 lg:mt-0"
+      >
         <button className=" bg-tertiary font-bold px-5 py-2 rounded-full">
           {project}
         </button>
