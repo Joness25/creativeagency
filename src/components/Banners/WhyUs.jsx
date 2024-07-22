@@ -20,7 +20,7 @@ const aboutData = [
 
 const WhyUs = () => {
   return (
-    <div className=" min-h-screen flex flex-col items-end text-center lg:text-start bg-[url('../assets/whyus.jpg')] bg-no-repeat bg-cover bg-center">
+    <div className=" min-h-screen flex flex-col items-end text-center lg:text-start bg-[url('../assets/whyUs.jpg')] bg-no-repeat bg-cover bg-center">
       <h1
         data-aos="fade-up"
         className=" text-6xl font-bold text-white w-full lg:w-1/3 py-10"
