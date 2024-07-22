@@ -14,7 +14,7 @@ import Projects from "@/components/Projects/Projects";
 import Contact from "@/components/Contact/Contact";
 import Footer from "@/components/Footer/Footer";
 
-const page = () => {
+const MainPage = () => {
   useEffect(() => {
     AOS.init({
       offset: 100,
@@ -35,4 +35,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default MainPage;

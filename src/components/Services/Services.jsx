@@ -48,6 +48,7 @@ const Services = () => {
       >
         {serviceData.map((ele) => (
           <ServiceCard
+            key={ele.id}
             id={ele.id}
             icon={ele.icon}
             title={ele.title}
